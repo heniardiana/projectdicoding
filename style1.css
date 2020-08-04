@@ -1,0 +1,35 @@
+
+.container-dua {
+    max-width: 800px;
+    margin: 50px auto;
+    
+}
+
+.layanan{
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.layanan.satu{
+    background-color: rgb(119, 119, 224);
+}
+
+.layanan.dua{
+    background-color: rgb(102, 201, 102);
+}
+
+.layanan.tiga{
+    background-color: rgb(255, 124, 117);
+}
+
+@media( min-width: 600px ) {
+    .container-dua {
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .layanan{
+    width: 30%;
+    }
+}
